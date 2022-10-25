@@ -1,6 +1,7 @@
 function doy = dayofyear(mmddyy,dateFormat)
 %DAYOFYEAR Converts a date string ("mm/dd/yyyy") to the day number of the
 %year.
+% example d = dayofyear("05/09/1971","mm/dd/yyyy")
 
 % NOTE: MATLAB already does easily this using:
 %           doy = day(d,"dayofyear")
