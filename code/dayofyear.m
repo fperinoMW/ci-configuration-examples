@@ -21,7 +21,7 @@ end
 
 % Create a datetime object depending on the dateFormat provided
 if dateFormat == "mm/dd/yyyy"
-    d + datetime(mmddyy,"Format","MM/dd/uuuu");
+    d = datetime(mmddyy,"Format","MM/dd/uuuu");
 else
     d = datetime(mmddyy,"Format","dd/MM/uuuu");
 end
